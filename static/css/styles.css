@@ -1,0 +1,121 @@
+html, body {
+  font-family: "Mukta", sans-serif;
+  overflow-x: hidden;
+  background-color: #f0f0f0;
+}
+
+h2 {
+  font-weight: 700;
+}
+
+p {
+  font-size: 1.2rem;
+}
+
+hr {
+  color: grey;
+}
+
+
+
+#header {
+  min-height: 100vh;
+  background-image: url(../assets/header-img.jpg);
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  padding: 2% 5%;
+}
+
+#main-navbar {
+  background: none;
+}
+
+.navbar-brand {
+  width: 40%;
+}
+
+.nav-link {
+  font-size: 1.5rem;
+  margin: 0 16px;
+}
+
+.expand{
+  position:relative;
+  text-decoration:none;
+  display:inline-block;
+}
+.expand:after {
+  display:block;
+  content: '';
+  border-bottom: solid 1px #000;
+  transform: scaleX(0);
+  transition: transform 250ms ease-in-out;
+  transform-origin:100% 50%
+}
+.expand:hover:after {
+  transform: scaleX(1);
+  transform-origin:0 50%;
+}
+
+.header-title {
+  text-align: center;
+  margin: 5% auto;
+}
+
+.header-img {
+  width: 12.5%;
+  margin-bottom: 2%;
+}
+
+.title {
+  color: grey;
+}
+
+#mainpage {
+  padding: 5% 10%;
+}
+
+.main {
+  margin: 5% 0;
+}
+
+.main-img {
+  width: 100%;
+}
+
+.main-desc {
+  padding: 5% 5%;
+}
+
+.main-btn {
+  font-weight: bold;
+  margin-top: 2%;
+}
+
+#footer {
+  background-color: #202421;
+  text-align: center;
+  padding-top: 2%;
+  padding-bottom: .5%;
+}
+
+#footer p {
+  margin: 0;
+  color: #f0f0f0;
+  font-weight: 200;
+}
+
+.footer-btn {
+  color: #f0f0f0;
+  font-weight: 200;
+}
+
+.footer-btn:hover {
+  color:yellow;
+}
+
+.footer-logo {
+  width : 2.5%;
+  margin-bottom : 1%;
+}

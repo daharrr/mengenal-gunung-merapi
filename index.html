@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Geologi UI</title>
+  <!-- Bootstrap -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Mukta:wght@200;400;700&display=swap" rel="stylesheet">
+  <!-- AOS -->
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <!-- CSS -->
+  <link rel="stylesheet" href="static/css/styles.css">
+</head>
+
+<body>
+  <section id="header">
+    <nav id="main-navbar" class="navbar navbar-expand-md navbar-light">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#"><img src="static/assets/ui-navbar.png" class="navbar-brand" alt=""></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse " id="navbarNav">
+          <ul class="navbar-nav mb-auto mt-auto ms-auto">
+            <li class="nav-item">
+              <a class="nav-link expand" href="view/info.html">Info</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link expand" href="view/sejarah.html">Sejarah</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link expand" href="view/panduan.html">Panduan Bencana</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link expand" href="view/tim.html">Tim Kami</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <div class="container-fluid header-title" data-aos="zoom-in" data-aos-duration="1000">
+      <img src="static/assets/ui-logo.svg" alt="" class="header-img">
+      <h1 class="title">Mengenal Gunung Merapi Dari Mata Geologi</h1>
+    </div>
+  </section>
+  <section id="mainpage">
+    <div class="container-fluid main" data-aos="fade-left" data-aos-duration="1000">
+      <div class="row">
+        <div class="col-lg-3">
+          <img src="static/assets/info-main.png" alt="" class="main-img">
+        </div>
+        <div class="col-lg-9 main-desc">
+          <h2 class="mb-2">Informasi Umum Gunung Merapi</h2>
+          <p>Gunung Merapi merupakan salah satu gunung api yang saat ini masih aktif di Indonesia. Gunung Merapi terletak pada 4 kabupaten yang berbeda, yaitu Kabupaten Sleman Provinsi Daerah Istimewa Yogyakarta, Kabupaten Magelang, Kabupaten
+            Boyolali, dan Kabupaten Klaten Provinsi Jawa Tengah. Gunung Merapi memiliki koordinat atau posisi geografi pada 7° 32’30” LS dan 110° 26’30” BT. Jika dilihat berdasarkan kondisi geologinya atau kondisi tektoniknya . . . . . . . . .</p>
+          <button type="button" name="button" class="btn btn-warning main-btn" onclick="location.href='view/info.html'">Lihat Selengkapnya</button>
+        </div>
+      </div>
+    </div>
+    <div class="container-fluid main" data-aos="fade-right" data-aos-duration="1000">
+      <div class="row">
+        <div class="col-lg-9 main-desc">
+          <h2 class="mb-2">Sejarah Letusan Gunung Merapi</h2>
+          <ul>
+            <li><strong>Erupsi Periode Abad XIX</strong></li>
+            <p>Memiliki intensitas letusan yang besar, dengan awan panas mencapai sekitar 20 kilometer dari puncak. Letusan pada periode abad XIX terjadi pada tahun 1768, 1822, 1849, dan 1872 yang dianggap sebagai letusan terkuat dalam catatan era
+              geologi modern. Letusan pada tahun ini memiliki skala VEI mencapai 3 hingga 4. Tercatat gunung Merapi erupsi sebanyak lebih dari 80 kali dengan rata-rata satu kali erupsi setiap 4 tahun. Pada tahun 1807 hingga 1822 letusan yang terjadi
+              berupa asap hitam kelabu dengan bara sinar api dan aliran lava. Pada 24 April 1871 letusan yang terjadi menyebabkan hujan abu vulkanik di Bukittinggi . . . . . . . . .
+            </p>
+          </ul>
+
+          <button type="button" name="button" class="btn btn-warning main-btn" onclick="location.href='view/sejarah.html'">Lihat Selengkapnya</button>
+        </div>
+        <div class="col-lg-3">
+          <img src="static/assets/sejarah-main.png" alt="" class="main-img">
+        </div>
+      </div>
+    </div>
+    <div class="container-fluid main" data-aos="fade-left" data-aos-duration="1000">
+      <div class="row">
+        <div class="col-lg-3">
+          <img src="static/assets/panduan-main.png" alt="" class="main-img">
+        </div>
+        <div class="col-lg-9 main-desc">
+          <h2 class="mb-2">Kawasan Rawan Bencana dan Jalur Evakuasi</h2>
+          <p>Menurut Baxter et al (1998), Evakuasi merupakan salah satu cara paling efektif untuk mengurangi jumlah korban letusan Gunungapi. Evakuasi juga harus memiliki perencanaan dan system yang baik agar tidak menyebabkan konsekuensi negative.
+            Sistem Evakuasi Letusan Gunung Merapi di Kabupaten Sleman mengimplementasikan konsep dari system Evakuasi Ema (2005) dan Blong (1984) yang dibagi menjadi 5 Komponen, yaitu . . . . . . . . . .</p>
+          <button type="button" name="button" class="btn btn-warning main-btn" onclick="location.href='view/panduan.html'">Lihat Selengkapnya</button>
+        </div>
+      </div>
+    </div>
+  </section>
+  <footer id="footer">
+    <div class="logo">
+      <img src="static/assets/ui-logo.svg" alt="" class="footer-logo">
+    </div>
+    <ul class="list-inline">
+      <button class="btn footer-btn" type="button" role="button" onclick="location.href='view/info.html';">Info</button>
+      <p class="list-inline-item"> |</p>
+      <button class="btn footer-btn" type="button" role="button" onclick="location.href='view/sejarah.html';">Sejarah</button>
+      <p class="list-inline-item"> |</p>
+      <button class="btn footer-btn" type="button" role="button" onclick="location.href='view/panduan.html';">Panduan Bencana</button>
+      <p class="list-inline-item"> |</p>
+      <button class="btn footer-btn" type="button" role="button" onclick="location.href='view/tim.html';">Tim Kami</button>
+    </ul>
+    <hr>
+
+    <p style="margin-bottom:10px;">© FMIPA Universitas Indonesia 2021</p>
+
+  </footer>
+
+
+
+
+
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+</body>
+
+</html>
